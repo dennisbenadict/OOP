@@ -2,12 +2,12 @@
 
 abstract class IPatient
 {
-    public abstract string Register(string name,int age);
+    public abstract string Register(string name, int age);
 }
 
 class Patient : IPatient
 {
-    public override string Register(string name,int age)
+    public override string Register(string name, int age)
     {
         return $"{name} is {age} years old";
     }
