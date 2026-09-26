@@ -6,7 +6,7 @@ class Patient
     {
         return $"{name} is here";
     }
-    public string Register(string name,int age)
+    public string Register(string name, int age)
     {
         return $"{name} is {age} years old";
     }
@@ -18,7 +18,7 @@ class Program
     {
         Patient patient = new Patient();
         Console.WriteLine(patient.Register("Dennis"));
-        Console.WriteLine(patient.Register("Dennis",22));
+        Console.WriteLine(patient.Register("Dennis", 22));
     }
 
 }
