@@ -1,4 +1,4 @@
-﻿namespace PolymorphismMethodRiding;
+﻿namespace PolymorphismMethodOverriding;
 
 class Patient
 {
